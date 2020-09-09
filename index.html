@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html _hw</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="login-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="MendeleevTable">
+              <h1>Лантиноїди</h1>
+              <table>
+                <tr>
+                  <th>Повна назва</th>
+                  <th>Хімічний символ</th>
+                  <th>Порядковий №</th>
+                  <th>Атомна маса</th>
+                </tr>
+                <tr>
+                  <th>Церій</th>
+                  <th>Ce</th>
+                  <th>58</th>
+                  <th>140</th>
+                </tr>
+                <tr>
+                  <th>Празеодим</th>
+                  <th>Pr</th>
+                  <th>59</th>
+                  <th>141</th>
+                </tr>
+                <tr>
+                  <th>Неодим</th>
+                  <th>Nd</th>
+                  <th>60</th>
+                  <th>144</th>
+                </tr>
+                <tr>
+                  <th>Прометій</th>
+                  <th>Pm</th>
+                  <th>61</th>
+                  <th>147</th>
+                </tr>
+                <tr>
+                  <th>Самарій</th>
+                  <th>Sm</th>
+                  <th>62</th>
+                  <th>147</th>
+                </tr>
+                <tr>
+                  <th>Європій</th>
+                  <th>Eu</th>
+                  <th>63</th>
+                  <th>152</th>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Autorization">
+      <div class="container">
+          <div class="col-sm-4">
+            <h2>Авторизація</h2>
+            <form>
+              <label for="fname">Ваше ім'я:</label><br />
+              <input type="text" id="Ольга" name="Ольга" placeholder="Ольга"/><br />
+              <label for="lname">Ваше прізвище:</label><br />
+              <input type="text" id="Косцьов'ят" name="Косцьов'ят" placeholder="Косцьов'ят" /><br />
+              <h5>Стать:</h5>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Жіноча</label><br />
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Чоловіча</label><br />
+              <input type="radio" id="other" name="gender" value="other" />
+              <label for="other">Інша</label>
+              
+            <div class="choose-language">
+              <h5>Оберіть мову:</h5>
+              <input
+                type="checkbox"
+                id="мова1"
+                name="мова1"
+                value="англ"
+              />
+              <label for="мова1">Англійська</label><br />
+              <input
+                type="checkbox"
+                id="мова2"
+                name="мова2"
+                value="япон"
+              />
+              <label for="мова2">Японська</label><br />
+              <input
+                type="checkbox"
+                id="мова3"
+                name="мова3"
+                value="укр"
+              />
+              <label for="мова3">Українська</label>
+            <div class="summary"> <textarea id="textarea" cols="30" rows="1" placeholder="Напишіть коментар..."></textarea>
+            </div>
+            </form>
+        </div>
+        <h5>Оберіть місто</h5>
+            <form action="/action_page.php">
+            <select name="city" id="city">
+                <option value="Київ">Київ</option>
+                <option value="Львів">Львів</option>
+                <option value="Черкаси">Черкаси</option>
+                <option value="Запоріжжя">Запоріжжя</option>
+            </select>
+            <br><br>
+            <button>Відправити</button>
+        </form>
+          </div>
+       </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
