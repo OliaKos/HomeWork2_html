@@ -81,8 +81,9 @@
               <label for="male">Жіноча</label><br />
               <input type="radio" id="female" name="gender" value="female" />
               <label for="female">Чоловіча</label><br />
-              <input type="radio" id="other" name="gender" value="other" />
+              <input checked name="gender" type="radio" id="other" name="gender" value="other" />
               <label for="other">Інша</label>
+             
               
             <div class="choose-language">
               <h5>Оберіть мову:</h5>
@@ -114,6 +115,7 @@
         <h5>Оберіть місто</h5>
             <form action="/action_page.php">
             <select name="city" id="city">
+                <option disabled="disabled" selected="selected">Вибрати місто</option>
                 <option value="Київ">Київ</option>
                 <option value="Львів">Львів</option>
                 <option value="Черкаси">Черкаси</option>
